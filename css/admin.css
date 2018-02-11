@@ -1,0 +1,90 @@
+
+        /* TEMPLATE STYLES */
+
+        /* Necessary for full page carousel*/
+
+        html,
+        body,
+        .view {
+            padding-top: 30px;
+            height: 100%;
+        }
+
+        /* Navigation*/
+
+        .navbar {
+            background-color: #046637;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #046637;
+        }
+
+        footer.page-footer {
+            background-color: #046637;
+            margin-top: 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+            .display-3 {
+                font-size: 2rem;
+                margin-top: 6rem;
+            }
+            h3 {
+                font-size: 1rem;
+            }
+        }
+
+        @media only screen and (max-width: 667px) {
+            .display-3 {
+                font-size: 3rem;
+
+            }
+        }
+
+        /* Carousel*/
+        .carousel,
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        /*Caption*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        @media (min-width: 776px) {
+            .carousel .view ul li {
+                display: inline;
+            }
+            .carousel .view .full-bg-img ul li .flex-item {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+
+        .container{
+            padding-top: 5px;
+        }

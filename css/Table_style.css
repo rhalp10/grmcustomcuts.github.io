@@ -1,0 +1,27 @@
+        /* Your custom styles */
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after {
+   padding: 5px;
+}
+.dataTables_wrapper .mdb-select {
+    border: none;
+    float: left;
+}
+.dataTables_wrapper .mdb-select.form-control {
+    padding-top: 0;
+    margin-top: -1rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    width: 100px;
+}
+.dataTables_length label {
+    float: left;
+}
+table.dataTable {
+    margin-bottom: 3rem!important;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0;
+}
+                
+          
