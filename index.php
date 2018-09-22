@@ -341,7 +341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-                © 2018 Copyright:
+                &copy; <?php echo date("Y"); ?> Copyright:
                 <a href="https://www.grmcuts.com">
                     <strong> GRMcuts.com</strong>
                 </a>
